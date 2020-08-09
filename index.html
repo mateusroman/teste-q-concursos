@@ -8,7 +8,7 @@
     </head>
     <body>
         <div class="scope-container">
-            <div class="home" id="scrollhome">
+            <div class="home section-top" id="scrollhome">
                 <div class="twosideanchors-container">
                     <div class="leftcontent">
                         <a href="#scrollhome">Mateus Roman</a>
@@ -23,7 +23,7 @@
                 <h2>Este é o desafio front-end da Qconcursos</h2>
             </div>
     
-            <div class="about" id="scrollabout">
+            <div class="about section" id="scrollabout">
                 <h1>Sobre</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac tincidunt mauris. Quisque efficitur ligula tortor. Suspendisse vestibulum eros justo, eget lacinia est luctus a. Pellentesque imperdiet ornare ex, non pretium quam placerat vitae. Suspendisse eu venenatis elit, eu venenatis risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec varius arcu. Etiam lobortis nibh ultricies, aliquam ligula in, bibendum ante. Nullam euismod rhoncus massa, vel pellentesque orci iaculis vel. Duis ex neque, venenatis a blandit at, rutrum sed tellus.
@@ -36,17 +36,21 @@
                 </p>
             </div>
     
-            <div class="challange" id="scrollchallange">
+            <div class="challange section-bottom" id="scrollchallange">
                 <h1>Desafio</h1>
-                <div style="text-align: center;">
-                    <input type="text" style="resize: both; text-align: center;">
+
+                <div style="width: 20%; min-width: 100px; margin: auto;">
+                    <input type="text" style="width: 99%;
+                     line-height: 40px; text-align:center;">
                 </div>
-                <div style="text-align: center; margin-top: 10px;">
-                    <button type="button" style="resize: both;">Buscar Perfil</button>
+                <div style="width: 20%; min-width: 100px; margin: auto; margin-top: 10px;">
+                    <button type="button" style="width: 100%;
+                    padding: 8px 8px; line-height: 40px; font-size: 2vw;
+                    margin: 0;">Buscar Perfil</button>
                 </div>
                  
                 
-                <div class="challange-card">
+                <div class="challange-card section">
                     <div class="gitavatar">
                         <img src="" id="gitavatar"> <br />
                         <a href="" id="linktogitprofile" target="_blank">Visitar Perfil</a>
@@ -55,10 +59,11 @@
                         
                     </div>
                     <div class="gitbasicinfo">
-                        <p><b>Nome:</b> <b id="nome"></b></p>
-                        <p><b>Repositórios:</b> <b id="repositorios"></b></p>
-                        <p><b>Seguidores:</b> <b id="seguidores"></b></p>
-                        <p><b>Seguindo:</b> <b id="seguindo"></b></p>
+                        <div><b>Nome:</b>&nbsp;<b id="nome"></b></div>
+                        <div><b>Repositórios:</b>&nbsp;<b id="repositorios"></b></div>
+                        <div><b>Seguidores:</b>&nbsp;<b id="seguidores"></b></div>
+                        <div><b>Seguindo:</b>&nbsp;<b id="seguindo"></b></div>
+                        <hr>
                     </div>
                     <div class="gitrepoinfo">
                     </div>
